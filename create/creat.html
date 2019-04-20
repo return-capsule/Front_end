@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Create</title>
+    <link rel="stylesheet" href="./create.css">
 </head>
 <body>
-    <header>
+    <header id="header">
          
         <!--회원정보 띄워주기-->
     </header>
+    <div>
     <form id="container">
-        <p id="createTitle">생성</p>
+        <p id="createTitle">다온 만들기</p>
         <div id="input">
-            <label for="title" class="label">제목</label>
+            <label for="title" class="label">다온의 이름
                 <input type="text" id="title">
-            <input type="text" id="mainTxt">
+            </label>
             <input type="date" id="date">
+            <input type="text" id="mainTxt">
+            
             <input type="file" value="" name="upload[]" multiple="multiple">   
         </div>
-        <button id="submit">등록</button>
+
+        <button id="submit">만들기</button>
     </form>
+    </div>
 </body>
 </html>

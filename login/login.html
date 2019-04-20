@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./login.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./login.js"></script>
     <title>Login</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <img id="logo">
     </header>
     <div id="container">
-        <p>로그인</p>
+        <p id="title">로그인</p>
+        <p id="con">당신의 다온을 확인해보세요</p>
         <div id="inputs"> 
             <label for="id" class="label">ID</label>
-                <input type="text" id="id">
+                <input type="text" id="id"><br>
             <label for ="pw" class="label">PW</label>
                 <input type="password" id="pw">
        </div>
-       <button id="loginbtn">로그인</button>
-       <button id="signupbtn">회원가입</button>
+       <button id="loginbtn" onclick="login()">로그인</button>
+       <button id="signupbtn" onclick="location.href='../signup/signp.html'">회원가입</button>
     </div>
 </body>
 </html>

@@ -74,7 +74,7 @@ input {
     background-color: #ffffff;
 }
 
-#loginbtn{
+#signupbtn{
     position: absolute;
     bottom: 144px;
     right: 320px;
@@ -92,23 +92,6 @@ input {
     background-color: #ffffff;
   }
 
-#loginbtn:hover{
+#signupbtn:hover{
     background-color: #ece6cc;
-}
-#signupbtn{
-    position: absolute;
-    bottom: 144px;
-    right: 320px;
-    font-size: 34px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: 1.47;
-    letter-spacing: normal;
-    text-align: center;
-    color: #707070;
-    width: 220px;
-    height: 70px;
-    border: solid 3px #ece6cc;
-    background-color: #ffffff;
 }
